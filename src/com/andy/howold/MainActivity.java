@@ -254,7 +254,7 @@ public class MainActivity extends Activity implements OnClickListener
 		mPaint = new Paint();
 		mPaint.setColor(Color.WHITE);
 		mPaint.setStrokeWidth(3);
-
+		// 在bm上画mPhotoImage
 		mCanvas.drawBitmap(mPhotoImage, 0, 0, null);
 
 		try
@@ -277,6 +277,7 @@ public class MainActivity extends Activity implements OnClickListener
 				centerW = centerW * mPhotoImage.getWidth() / 100;
 				centerH = centerH * mPhotoImage.getHeight() / 100;
 
+				// 同样是在bm上面划线
 				// 画人脸box
 				// 上面一条横线
 				mCanvas.drawLine(centerX - centerW / 2, centerY - centerH / 2, centerX + centerW / 2, centerY - centerH / 2, mPaint);
@@ -286,6 +287,24 @@ public class MainActivity extends Activity implements OnClickListener
 				mCanvas.drawLine(centerX + centerW / 2, centerY - centerH / 2, centerX + centerW / 2, centerY + centerH / 2, mPaint);
 
 				mCanvas.drawLine(centerX - centerW / 2, centerY + centerH / 2, centerX + centerW / 2, centerY + centerH / 2, mPaint);
+
+				// 在这里画性别跟年龄
+				Bitmap ageBitmap = buildAgeBitmap(age, "Male".equals(gender));
+
+				// 比例
+				int ageWidth = ageBitmap.getWidth();
+				int ageHeight = ageBitmap.getHeight();
+				int bmWidth = bm.getWidth();
+				int bmHeight = bm.getHeight();
+				int mPhotoWidth = mPhoto.getWidth();
+				int mPhotoHeight = mPhoto.getHeight();
+				L.i("bmWidth = " + bmWidth + "  bmHeight = " + bmHeight + "  mPhotoWidth = " + mPhotoWidth + "  mPhotoHeight" + mPhotoHeight);
+				if (bm.getWidth() <= mPhoto.getWidth() && bm.getHeight() <= mPhoto.getHeight())
+				{
+					float ratio = Math.max(bm.getWidth() * 1.0f / mPhoto.getWidth(), bm.getHeight() * 1.0f / mPhoto.getHeight());
+					ageBitmap = Bitmap.createScaledBitmap(ageBitmap, (int) (ageWidth * ratio), (int) (ageHeight * ratio), false);
+				}
+				mCanvas.drawBitmap(ageBitmap, centerX - ageWidth / 2, centerY - centerH / 2 - ageBitmap.getHeight(), null);
 
 				mPhotoImageDetected = bm;
 
@@ -298,6 +317,34 @@ public class MainActivity extends Activity implements OnClickListener
 			L.i(e.toString());
 		}
 
+	}
+
+	/**
+	 * 
+	 * @param age
+	 * @param equals
+	 * @return
+	 */
+	private Bitmap buildAgeBitmap(int age, boolean isMale)
+	{
+		// TODO Auto-generated method stub
+		TextView textView = (TextView) findViewById(R.id.id_age_and_gender);
+		textView.setText(age + "");
+		// 男的
+		if (isMale)
+		{
+			textView.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.male), null, null, null);
+
+		}
+		else
+		{
+			textView.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(R.drawable.female), null, null, null);
+		}
+		textView.setDrawingCacheEnabled(true);
+		Bitmap bitmap = Bitmap.createBitmap(textView.getDrawingCache());
+		textView.destroyDrawingCache();
+
+		return bitmap;
 	};
 
 }

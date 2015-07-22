@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-Wechat-Moments-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="58cc538afcaea68397481e5447836e62797551cc">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-2.6.0-59b67ffe49c6dbb21c878132b7c799a8229746dd.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-362cf67d335d080ae4263741ccce3090d6761489.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-Wechat-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="af48a61a1270951dc870e1579a48a415ff10c1cc">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-2.6.0-db764e25abca85e8c242f1cc358b083eabdcee6e.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-Wechat-Core-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="026345fd0ea8105f21cd9688849f1301232eecf9">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-2.6.0-042ff79d7e34f6d08ab124a1d8d1630bf771bdda.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/MobTools.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2cba35ceab382729de67845f613556d38a32133">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/MobTools-fc07e645ecc65804a9decc69b20cc9b10b7100c2.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-SinaWeibo-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4850471ee42c51d046ac83448be0d56aa1dff1f5">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-2.6.0-98bffe70191f339f6ede4ac49813c147e0b7f718.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-Core-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ce77708798f39a79b83785dd24dd551b4680e469">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-2.6.0-6fa804018b1cf5672f154e7433455d6f7c919896.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-ShortMessage-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b684edab91a8650bacc82b42a19ad683776d6eb4">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-ShortMessage-2.6.0-6816ab2140e34a41618349d867e05f56a644110f.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-50b5fce0160a17af281e96070f93631c6c06a034.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/classes-32b37f1b6052c62862d3ed40a1777b8e5e7fee0a.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/faceppsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3384595c699a5be231ad099b07b96741806750a">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/faceppsdk-d490996c84703d16e283c40973ce8476f15f7874.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-Wechat-Favorite-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a9d272ae8dcbc00d9a0c8709c72ce0b79f0982fa">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Favorite-2.6.0-ccc61f45b2caad07ebf8114dc8cc42f5cfad33e4.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/classes-106ffb0ec1eb490047e06849f7e7e60ffeb0daef.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-QZone-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="220b0f41eb09db85c24113a0f8d69cf1011b0e07">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-QZone-2.6.0-77823f3a485be81da6d01207d29c47684743a83a.jar" />
+    </item>
+    <item
+        jar="/Users/andy/Developer/Android/how-old-studio/howOld1/app/libs/ShareSDK-QQ-2.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e6c6b568ccacd915fbf96b9b73697fecb778d36e">
+        <dex dex="/Users/andy/Developer/Android/how-old-studio/howOld1/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-2.6.0-e4798c0945076cb1423d7885c3d133fe827c0762.jar" />
+    </item>
+
+</items>
